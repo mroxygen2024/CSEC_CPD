@@ -1,0 +1,7 @@
+lists=list(map(int,input().split()))
+Count=0
+while lists[0]<=lists[1]:
+    lists[0]*=3
+    lists[1]*=2
+    Count+=1
+print(Count)
